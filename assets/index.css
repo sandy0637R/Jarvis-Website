@@ -13,8 +13,10 @@
 :root{
     --primary:white;
     --secondary:black;
-    --third:rgb(76, 76, 201);
+    --third:#0000FF;
     --fourth:rgb(86, 81, 81);
+    --fifth:#667085;
+    --sixth:#1566d6;
 }
 
 .section{
@@ -56,7 +58,7 @@
 
 
 .button2{
-    padding: 25px 50px;
+    padding: 20px 40px;
     border-radius: 100px;
     background-color: var(--primary);
     border: none;
@@ -78,12 +80,29 @@
     background-color: var(--third);
 }
 
+.button3{
+    padding: 7px 10px;
+    margin: 5px 10px 5px 0px;
+    font-size: 1em;
+    border-radius: 20px;
+    background-color: var(--primary);
+    box-shadow: 0px 0px 1.5px;
+    color: var(--fifth);
+    border: none;
+}
 
+.button3:hover{
+    background-color: var(--sixth);
+    color: var(--primary);
+}
 /* Navigation Bar  */
 
 .navbar{
-    padding: 20px 0px;
     box-shadow: 0px 0px 0.5px;
+}
+
+.navbar-section1{
+    padding: 20px 0px 0px;
 }
 
 .navbar-main{
@@ -104,7 +123,11 @@
 }
 
 .navbar-li{
-    padding: 0px 15px;
+    padding: 30px 15px ;
+}
+
+.navbar-li:hover{
+    border-bottom: 4px solid var(--third);
 }
 
 .navbar-link{
@@ -389,3 +412,128 @@
     filter: grayscale(0);
 }
 /* Seventh section End  */
+
+/* Contact Section  */
+
+.contact-main{
+    padding: 100px 0px;
+}
+.contact-form{
+    display: flex;
+    width: 80%;
+    border: 1px solid var(--third);
+    border-radius: 20px;
+}
+
+.contact-container1{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: var(--sixth);
+    color: var(--primary);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.phone-icon{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 50px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-container2{
+    padding: 50px;
+}
+
+.contact-buttons-section{
+    display: flex;
+}
+
+.buttons-section{
+    margin-bottom: 40px;
+}
+
+.contact-section{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.input-label{
+    font-size: 0.87em;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.user-input{
+    padding: 10px;
+    font-size: 1em;
+    width: 360px;
+    color: var(--fifth);
+    border: none;
+    box-shadow: 0px 0px 2px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.phone-number{
+    display: flex;
+    width: 360px;
+    justify-content: left;
+    align-items: center;
+    box-shadow: 0px 0px 1.5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.phone-select{
+    border: none;
+    font-size: 1em;
+    padding: 8.5px;
+    border-radius: 6px;
+}
+
+.phone-input{
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.textarea-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea{
+    width: 740px;
+    height: 148px;
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 2px;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: vertical;
+}
+
+.start-button{
+    width: 98%;
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 5px;
+    color: var(--primary);
+    background-color: var(--sixth);
+    border: none;
+    margin-top: 20px;
+}
+/* Contact Section End  */

@@ -19,3 +19,4 @@ let swiper = new Swiper('.card-content', {
       el: '.swiper-scrollbar',
     },
   });
+  
