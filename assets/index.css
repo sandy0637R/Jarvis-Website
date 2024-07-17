@@ -17,6 +17,8 @@
     --fourth:rgb(86, 81, 81);
     --fifth:#667085;
     --sixth:#1566d6;
+    --seventh: rgb(238, 248, 245);
+    --eight: rgb(248, 249, 248);
 }
 
 .section{
@@ -537,3 +539,67 @@
     margin-top: 20px;
 }
 /* Contact Section End  */
+
+/* Footer Section */
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--eight);
+    color: var(--fifth);
+}
+.footer{
+    margin: 0px 150px;
+    padding: 50px 0px;
+}
+.footer-headings{
+    font-weight: 500;
+    color: var(--secondary);
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section1{
+    padding: 40px 0px;
+    border-bottom: 0.5px solid var(--fifth);
+}
+.footer-section2{
+    padding: 50px 0px 30px;
+}
+
+.footer-section2 h3{
+    padding-bottom: 10px;
+}
+.footer-section2 ul li{
+    padding: 10px 0px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.footer-section2 ul li a{
+    color: var(--fifth);
+}
+.footer-section2-part3 p{
+    padding: 5px 0px;
+}
+.footer-section3{
+    padding: 30px 0px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footer-img{
+    margin-right: 15px;
+}
+
+.footer-section4{
+    background-color: var(--seventh);
+    padding: 50px 150px;
+}
+.footer-section4 h3{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+/* Footer Section End */
