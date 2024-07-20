@@ -262,28 +262,23 @@
 /* Fourth section  */
 .serve-main{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.serve-section1{
-    display: flex;
-    flex-direction: column;
+.serve-img1{
+    width: 384px;
+    height: 228px;
 }
-
-.image-conatiner1{
-    position: relative;
-    margin: 50px;
-}
-
-
 .serve-img2{
-    position: absolute;
-    z-index: -1;
+    width: 384px;
+    height: 343px;
 }
-
-.serve-img2:hover{
-    z-index: 1;
+.serve-second-section{
+    margin: 0px 20px;
 }
-
+.serve-container{
+    margin;
+}
 /* Fourth section End  */
 
 
